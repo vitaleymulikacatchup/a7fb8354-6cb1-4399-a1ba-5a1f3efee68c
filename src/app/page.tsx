@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -8,7 +8,7 @@ import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, ChefHat, UtensilsCrossed, MessageCircle, Calendar } from 'lucide-react';
+import { Award, ChefHat, UtensilsCrossed, MessageCircle, Calendar, Flame, Star } from 'lucide-react';
 
 export default function Page() {
   return (
@@ -63,12 +63,12 @@ export default function Page() {
             {
               title: "Expert Preparation", 
               description: "Our master chefs use traditional techniques and high-temperature grilling to achieve the perfect sear and doneness.",
-              icon: "Flame"
+              icon: Flame
             },
             {
               title: "Elegant Atmosphere",
               description: "Dine in sophisticated comfort with attentive service and an ambiance that enhances every memorable meal.",
-              icon: "Star"
+              icon: Star
             }
           ]}
           imageSrc="https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
